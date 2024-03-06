@@ -1,0 +1,26 @@
+﻿@using MVCDay2.ViewModel
+@model List<BonusShowCrsTrViewModel> 
+@{
+    ViewData["Title"] = "Bonus";
+}
+
+<h1>Bonus</h1>
+<div style="background-color:antiquewhite">
+   <table>
+    <thead>
+        <tr>
+            <th>Trainee Name: </th> 
+            <th>Result Degree: </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var result in Model)
+        {
+                <tr style="color:@result.Color;">
+                <td>@result.TraineeName</td>
+                <td>@result.ResultDegree</td>
+            </tr>
+        }
+    </tbody>
+    </table>
+</div>

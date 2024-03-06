@@ -1,0 +1,27 @@
+﻿@model Course
+
+@* @{
+    Layout = "~/Views/Shared/_AdvanLayout.cshtml";
+} *@
+
+    <title>Delete Confirmation:@Html.DisplayFor(Model => Model.CourseName)</title>
+
+
+ 
+    <h2>Delete Confirmation</h2>
+
+    <div>
+        <p>
+            Please confirm you want to delete course titled:
+            <i>@Html.DisplayFor(Model => Model.CourseName)</i>
+           
+        </p>
+    </div>
+
+    <form asp-action="Delete" asp-controller="CourseNew" asp-route-id="@Model.Id" method="post">
+        <input name="confirmButton" type="submit" value="Delete" />
+
+       
+        <a asp-controller="CourseNew" asp-action="Show" class="btn btn-secondary">Cancel</a>
+    </form>
+

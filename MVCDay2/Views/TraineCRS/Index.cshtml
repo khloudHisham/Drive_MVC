@@ -1,0 +1,27 @@
+﻿@model MVCDay2.ViewModel.TraineCourseDegreeViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h2>Student and Result Courses Details</h2>
+
+<table style="color:@ViewBag.StatusColor">
+    <thead>
+        <tr>
+            <th>Trainee Name</th>
+            <th>Course Name</th>
+            <th>Result Degree</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+            <tr>
+                <td>@Model.TrName</td>
+                <td>@Model.CourseName</td>
+                <td>@Model.CourseDegre</td>
+            </tr>
+        
+    </tbody>
+</table>

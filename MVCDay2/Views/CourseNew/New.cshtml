@@ -1,0 +1,47 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "New";
+    SelectList DeptItems = new SelectList(ViewBag.DeptList, "Id", "DeptName");
+    SelectList InstItems = new SelectList(ViewBag.InstList, "Id", "InsName");
+    SelectList ResultsItems = new SelectList(ViewBag.ResultsList, "Id","ICrsDegree");
+}
+
+<h1>New</h1>
+
+<form method="post" asp-action="New" asp-controller="CourseNew">
+    <div asp-validation-summary="All" class="text-danger"></div>
+   
+    <div>
+   
+    <div>
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form form-control" />
+        <span asp-validation-for="CourseName" class="text-danger"></span>
+    </div>
+        <div>
+            <label asp-for="CourseDegree"></label>
+            <input asp-for="CourseDegree" class="form form-control" />
+            <span asp-validation-for="CourseDegree" class="text-danger"></span>
+        </div>
+    <div>
+        <label asp-for="CourseMinDegree"></label>
+        <input asp-for="CourseMinDegree" class="form form-control" />
+        <span asp-validation-for="CourseMinDegree" class="text-danger"></span>
+    </div>
+    
+    <div>
+        <label asp-for="DeptId"></label>
+
+        <select asp-for="DeptId" asp-items="DeptItems" class="form form-control">
+                <option value="0"> --Select Department-- </option>
+
+        </select>
+        <span asp-validation-for="DeptId" class="text-danger"></span>
+    </div>
+    <br/>
+    <input type="submit" value="Create" class="btn btn-success" />
+    <a href="/CourseNew/Show" class="btn btn-dark">Back to Cources</a>
+</form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

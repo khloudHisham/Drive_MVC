@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCDay2
+build_property.RootNamespace = MVCDay2
+build_property.ProjectDir = D:\المنحه\mvc\6\MVCDay2\MVCDay2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\المنحه\mvc\6\MVCDay2\MVCDay2
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/BonusCrs/Bonus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNDcnNcQm9udXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/CourseNew/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlTmV3XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/CourseNew/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlTmV3XE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/CourseNew/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlTmV3XFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Course/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Course/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/InstractorListNew/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJhY3Rvckxpc3ROZXdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/InstractorListNew/NewView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJhY3Rvckxpc3ROZXdcTmV3Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/InstractorListNew/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJhY3Rvckxpc3ROZXdcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Shared/_AdvanLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZHZhbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Shared/_NavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/TraineCRS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lQ1JTXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/المنحه/mvc/6/MVCDay2/MVCDay2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ywy6c4x47j

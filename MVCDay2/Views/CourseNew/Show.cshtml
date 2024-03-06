@@ -1,0 +1,35 @@
+﻿@using MVCDay2.Models
+@model List<Course>
+@{
+    ViewData["Title"] = "Show";
+   // Layout = "~/Views/Shared/_AdvanLayout.cshtml";
+
+}
+
+<h1>Show</h1>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Course Name</th>
+        <th>Course Degree</th>
+        <th>Min Degree</th>
+        <th>New Course</th>
+        <th>Delete Course</th>
+    </tr>
+    @foreach (var item in Model )
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.CourseName</td>
+            <td>@item.CourseDegree</td>
+            <td>@item.CourseMinDegree</td>
+            <td>
+                <a asp-action="New" asp-controller="CourseNew" class="btn btn-success">New</a>
+
+             </td>
+            <td>
+                <a href="/CourseNew/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+</table>

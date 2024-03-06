@@ -1,0 +1,25 @@
+﻿@using MVCDay2.ViewModel
+@model List<InsShowViewModel>
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>INSTRACTOR</h1>
+
+<a href="/InstractorListNew/NewView" class="btn btn-success">New Instractor</a>
+
+<table class="table table-bordered table-hover">
+    @foreach (var item in Model )
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Address</td>
+            <td>@item.Salary</td>
+            <td>@item.Image</td>
+            <td>@item.Cours</td>
+            <td>@item.Dept</td>
+            <td><a href="/InstractorListNew/Edit/@item.Id" class="btn btn-success">Edit</a></td>
+
+        </tr>
+    }
+</table>
